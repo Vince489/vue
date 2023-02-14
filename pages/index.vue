@@ -23,9 +23,7 @@ const email = ref(null)
 const login = () => {
   console.log(gamerTag.value)
   console.log(email.value)
-  return (gamerTag.value, email.value)
 }
-
 
 
 </script>
